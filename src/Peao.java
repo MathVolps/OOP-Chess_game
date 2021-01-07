@@ -28,6 +28,8 @@ public class Peao extends Peca {
                 if (linhaOrigem == 6) {                                                                 //posição original preta, pode mover 2 casas
                     if (variacaoColuna == 0 && (variacaoLinha == -1 || variacaoLinha == -2)) {          //movimento incial
                         return true;
+                    } else if ((variacaoColuna == 1 || variacaoColuna == -1) && variacaoLinha == -1) {
+                        return true;
                     } else {                                                                            //movimento inválido
                         return false;
                     }                 
@@ -38,11 +40,13 @@ public class Peao extends Peca {
                         return true;
                     } else {                                                                            //qualquer outro movimento comum e inválido
                         return false;
-                    }                        
-                } 
+                    } 
+                }                       
             } else {                                                                                    //se a peça for branca
                 if (linhaOrigem == 1) {                                                                 //posição original branca, pode mover 2 casas
                     if (variacaoColuna == 0 && (variacaoLinha == 1 || variacaoLinha == 2)) {            //movimento inicial
+                        return true;
+                    } else if ((variacaoColuna == 1 || variacaoColuna == -1) && variacaoLinha == 1) {
                         return true;
                     } else {                                                                            //movimento inválido
                         return false;
