@@ -23,9 +23,9 @@ Para execução deste projeto, é necessária a instalção prévia do JDK, vist
 
 ## Como jogar:
 1. Ao se iniciar o jogo, o mesmo perguntará aos usuários o que se deseja fazer. As opções são:</br>
-  1. Iniciar uma nova partida;
-  2. Carregar uma partida pré-existente;
-  3. Encerrar o jogo.
+  * Iniciar uma nova partida;
+  * Carregar uma partida pré-existente;
+  * Encerrar o jogo.</br>
   *observação: não selecione a segunda opção caso você ainda não tenha iniciado uma partida neste jogo!</br>*
 2. Caso a primeira opção seja escolhida, o jogo pedirá os nomes dos jogadores da partida. O primeiro nome solicitado é referente ao(a) jogador(a) de peças brancas, enquanto o segundo, ao(a) jogador(a) de peças pretas. Após a indicação dos nomes, a partida será efetivamente iniciada, o tabuleiro será apresentado e a primeira jogada, solicitada.</br>
 O jogo inidicará a vez de cada jogador em cada jogada e mostrará mensagens específicas de erro em casos de jogadas inválidas ou incorretas, acompanhe a comunicação feita pelo jogo, para que a partida se desenvolva corretamente.
