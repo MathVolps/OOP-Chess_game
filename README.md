@@ -1,7 +1,7 @@
 # Jogo de Xadrez - Java
 ## Conceito
-Este é um projeto desenvolvido durante a disciplina de Programação Orientada à Objetos (POO), cursada durante o 3° semestre minha graduação de Bacharelado em Ciência da Computação, na Universidade Federal de São Carlos (UFSCar) - campus Sorocaba.</br>
-Todo o projeto foi implementado em Java e compreende conceitos clássicos de POO, como encapsulamento, polimorfismo e herança, além do tratamento de exceções, para tornar o jogo mais flúido e constante. O jogo é executado atráves do terminal.</br>
+Este é um projeto desenvolvido durante a disciplina de Programação Orientada à Objetos (POO), cursada durante o 3° semestre da minha graduação de Bacharelado em Ciência da Computação, na Universidade Federal de São Carlos (UFSCar) - campus Sorocaba.</br>
+Todo o projeto foi implementado em Java e compreende conceitos clássicos de POO, como encapsulamento, polimorfismo e herança, além do tratamento de exceções, para tornar o jogo mais fluido e constante. O jogo é executado atráves do terminal.</br>
 
 ## Pré-requisitos
 Para execução deste projeto, é necessária a instalção prévia do JDK, visto que há necessidade de compilação e execução dos arquivos `.java`. Você pode seguir tutoriais de instalação do mesmo através dos links abaixo:</br>
@@ -12,13 +12,13 @@ Para execução deste projeto, é necessária a instalção prévia do JDK, vist
 1. Após instalação correta do JDK, execute o seguinte comando para efetuar download do repositório: `git clone https://github.com/MathVolps/OOP-Chess_game.git`.
 2. Execute os comandos abaixo, para acessar a pasta de arquivos `.java`:
 ```
-  * cd OOP-Chess_game
-  * cd src
+  cd OOP-Chess_game
+  cd src
 ```
 3. Compile e execute o jogo através dos comandos abaixo:
 ```
-  * javac *.java
-  * java Gerenciador
+  javac *.java
+  java Gerenciador
 ```
 
 ## Como jogar:
